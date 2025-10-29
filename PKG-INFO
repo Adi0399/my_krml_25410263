@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: my-krml-25410263
+Version: 0.1.4
+Summary: KRML utils: XRP crypto ML helpers (prep, splits, metrics, RF/XGB, artifacts).
+Author-email: Aditya Kulkarni <you@example.com>
+License: MIT
+Project-URL: Homepage, https://example.com
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas==2.2.2
+Requires-Dist: scikit-learn==1.5.1
+Requires-Dist: xgboost==2.1.0
+Requires-Dist: lightgbm==4.4.0
+Requires-Dist: joblib==1.4.2
+
+# my-krml-25410263
+
+Helpers for XRP crypto ML (prep, splits, metrics, RF/XGB, save/load).

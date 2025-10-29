@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-krml-25410263"
+version = "0.1.4"
+description = "KRML utils: XRP crypto ML helpers (prep, splits, metrics, RF/XGB, artifacts)."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+authors = [{ name = "Aditya Kulkarni", email = "you@example.com" }]
+
+dependencies = [
+  "numpy>=1.26",
+  "pandas==2.2.2",
+  "scikit-learn==1.5.1",
+  "xgboost==2.1.0",
+  "lightgbm==4.4.0",
+  "joblib==1.4.2"
+]
+
+[project.urls]
+Homepage = "https://example.com"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["my_krml_25410263*"]
+exclude = []
